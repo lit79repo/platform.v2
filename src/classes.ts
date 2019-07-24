@@ -70,4 +70,16 @@ class Class {
     }
 }
 
+class School {
+	name: string;
+	number: number;
+	classes: Interfaces.Class[];
+
+	constructor(school: Interfaces.School) {
+		this.name = school.name;
+		this.number = school.number;
+		this.classes = school.classes;
+	}
+}
+
 export { Lesson, Teacher, Class, ScheduleWeek };
