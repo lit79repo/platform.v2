@@ -82,4 +82,4 @@ class School {
 	}
 }
 
-export { Lesson, Teacher, Class, ScheduleWeek };
+export { Lesson, Teacher, Class, ScheduleWeek, School };
